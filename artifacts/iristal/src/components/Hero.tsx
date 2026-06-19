@@ -1,6 +1,6 @@
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import heroImg from "../assets/images/hero.png";
+import heroImg from "@assets/generated_images/professional_hvac_installation_scene_31a8.png";
 
 export function Hero() {
   const scrollToContact = () => {
@@ -9,10 +9,9 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[100svh] flex flex-col justify-center bg-[#0b1f45] overflow-hidden">
-      {/* Background diagonal accent */}
+      {/* Background gradient layers */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1f45] via-[#0d2558] to-[#071530]" />
-        {/* Diagonal geometric shapes */}
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#0f2d6b]/60 to-transparent" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-400/5 rounded-full blur-3xl" />
         <div className="absolute top-20 right-20 w-72 h-72 bg-blue-400/5 rounded-full blur-3xl" />
@@ -20,18 +19,18 @@ export function Hero() {
 
       {/* Hero image — right half */}
       <div className="absolute top-0 right-0 w-full md:w-1/2 h-full z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f45] via-[#0b1f45]/70 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f45] via-[#0b1f45]/80 to-[#0b1f45]/30 z-10" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b1f45] via-transparent to-transparent z-10" />
         <img
           src={heroImg}
-          alt="Instalator profesionist Iași"
-          className="w-full h-full object-cover object-center opacity-60"
+          alt="Instalatii profesionale Iasi"
+          className="w-full h-full object-cover object-center opacity-70"
         />
       </div>
 
       <div className="relative z-20 max-w-6xl mx-auto px-4 py-20 md:py-32 w-full">
         <div className="max-w-2xl">
-          {/* Altex badge — super prominent in hero */}
+          {/* Altex badge */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -39,7 +38,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 bg-amber-400/15 border border-amber-400/40 rounded-full px-4 py-2 mb-8"
           >
             <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
-            <span className="text-amber-400 font-bold text-sm tracking-widest uppercase">Partener Contractual Altex</span>
+            <span className="text-amber-400 font-bold text-sm tracking-widest uppercase">Contract de colaborare Altex</span>
           </motion.div>
 
           <motion.h1
@@ -62,7 +61,6 @@ export function Hero() {
             Cu peste <strong className="text-white">15 ani experiență</strong>, Iristal oferă servicii complete de instalații — aer condiționat, centrale termice și instalații sanitare.
           </motion.p>
 
-          {/* Quick trust points */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
@@ -70,9 +68,9 @@ export function Hero() {
             className="flex flex-col gap-2 mb-10"
           >
             {[
-              "Montaj aparate cumpărate de la Altex",
               "Garanție lucrări. Prețuri transparente.",
               "Intervenții rapide în Iași și împrejurimi",
+              "Peste 15 ani de experiență în instalații",
             ].map((point, i) => (
               <div key={i} className="flex items-center gap-3">
                 <CheckCircle className="w-5 h-5 text-amber-400 shrink-0" />
@@ -117,7 +115,7 @@ export function Hero() {
         <div className="max-w-6xl mx-auto px-4 py-5 grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10">
           {[
             { number: "15+", label: "Ani experiență" },
-            { number: "Altex", label: "Partener contractual" },
+            { number: "Altex", label: "Contract colaborare" },
             { number: "Iași", label: "Intervenții rapide" },
             { number: "100%", label: "Lucrări garantate" },
           ].map((stat, i) => (

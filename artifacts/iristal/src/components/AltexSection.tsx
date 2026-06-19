@@ -8,14 +8,13 @@ export function AltexSection() {
 
   return (
     <section className="py-20 bg-white relative overflow-hidden">
-      {/* Subtle background accent */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-amber-50 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-50 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl" />
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 
-          {/* Left — big visual statement */}
+          {/* Left — visual statement card */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -23,9 +22,7 @@ export function AltexSection() {
             transition={{ duration: 0.6 }}
             className="lg:w-2/5 shrink-0"
           >
-            {/* Altex partnership card */}
             <div className="relative bg-[#0b1f45] rounded-3xl p-8 md:p-10 overflow-hidden">
-              {/* Geometric accent */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-full -translate-y-8 translate-x-8" />
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-400/10 rounded-full translate-y-6 -translate-x-6" />
 
@@ -36,10 +33,10 @@ export function AltexSection() {
                 </div>
 
                 <div className="text-5xl md:text-6xl font-black text-white mb-2 tracking-tight">ALTEX</div>
-                <div className="text-lg font-bold text-amber-400 mb-6">Partener certificat pentru montaj</div>
+                <div className="text-lg font-bold text-amber-400 mb-6">Contract de colaborare</div>
 
                 <p className="text-blue-200/80 leading-relaxed text-sm md:text-base">
-                  Iristal este unul dintre puținii instalatori din Iași cu <strong className="text-white">contract direct cu Altex</strong> — cel mai mare retailer de electronice din România.
+                  Iristal deține un <strong className="text-white">contract de colaborare cu Altex</strong> — cel mai mare retailer de electronice din România. Un semn clar al seriozității și competenței noastre.
                 </p>
 
                 <div className="mt-8 pt-6 border-t border-white/10 grid grid-cols-2 gap-4">
@@ -56,7 +53,7 @@ export function AltexSection() {
             </div>
           </motion.div>
 
-          {/* Right — explanation and benefits */}
+          {/* Right — explanation */}
           <div className="lg:w-3/5">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -65,14 +62,14 @@ export function AltexSection() {
               transition={{ duration: 0.5 }}
             >
               <div className="inline-block bg-amber-400/10 rounded-lg px-3 py-1 text-amber-600 font-bold text-sm uppercase tracking-widest mb-4">
-                De ce contează
+                Un parteneriat care face diferența
               </div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#0b1f45] leading-tight mb-6">
-                Instalăm ce cumperi<br />
-                <span className="text-amber-500">de la Altex</span>
+                Parteneri de încredere<br />
+                <span className="text-amber-500">recunoscuți de Altex</span>
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-10">
-                Ai cumpărat sau vrei să cumperi un aparat de aer condiționat de la Altex? Iristal îl montează cu garanție, la prețuri transparente — ca partener oficial, nu ca un necunoscut.
+                Contractul nostru cu Altex nu este un detaliu — este o dovadă că lucrăm la standarde înalte. Altex, ca unul dintre cei mai mari jucători din piața românească, colaborează doar cu firme verificate și de încredere.
               </p>
             </motion.div>
 
@@ -80,18 +77,18 @@ export function AltexSection() {
               {[
                 {
                   icon: ShieldCheck,
-                  title: "Garanție completă a lucrării",
-                  desc: "Montaj conform standardelor Altex. Garanția produsului rămâne intactă.",
+                  title: "Calitate verificată",
+                  desc: "Un contract cu Altex presupune respectarea unor standarde stricte de calitate și profesionalism.",
                 },
                 {
                   icon: Wrench,
-                  title: "Instalatori cu experiență certificată",
-                  desc: "Peste 15 ani de montaje profesionale. Știm exact cum lucrăm cu orice aparat.",
+                  title: "Experiență dovedită",
+                  desc: "Peste 15 ani de lucrări profesionale stau la baza acestei colaborări. Știm ce facem.",
                 },
                 {
                   icon: ThumbsUp,
-                  title: "Prețuri corecte, fără surprize",
-                  desc: "Deviz clar înainte de lucrare. Plătești exact ce ți s-a spus.",
+                  title: "Seriozitate și punctualitate",
+                  desc: "Venim la timp, lucrăm corect și lăsăm totul curat. Clienții noștri știu asta.",
                 },
               ].map((item, i) => (
                 <motion.div
@@ -125,7 +122,7 @@ export function AltexSection() {
                 data-testid="button-altex-offer"
                 className="group inline-flex items-center gap-2 bg-[#0b1f45] hover:bg-amber-400 text-white hover:text-slate-900 font-bold text-base px-7 py-4 rounded-xl transition-all duration-300 shadow-lg"
               >
-                Solicită montaj
+                Solicită o ofertă
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </motion.div>
