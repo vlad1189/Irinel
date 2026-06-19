@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "D3f663RkHT_bUHMRfsqas"
+uri = "file://artifacts/iristal/src/assets/images/hero.png"
+type = "image"
+title = "HVAC technician mounting air conditioner"
+
+[[generated]]
+id = "FPB9kAY91VmfuiIsR64Jr"
+uri = "file://artifacts/iristal/src/assets/images/service-ac.png"
+type = "image"
+title = "Modern AC unit installation"
+
+[[generated]]
+id = "oe86M2qvEb8ocG9dzi43u"
+uri = "file://artifacts/iristal/src/assets/images/service-boiler.png"
+type = "image"
+title = "Thermal boiler heating unit"
+
+[[generated]]
+id = "Tjw6SfCKMngiR9QW1ggcm"
+uri = "file://artifacts/iristal/src/assets/images/service-plumbing.png"
+type = "image"
+title = "Plumbing pipe installation"

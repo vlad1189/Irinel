@@ -1,0 +1,159 @@
+Creează un website modern, premium și orientat spre vânzări pentru o firmă de instalații din Iași numită "Iristal".
+
+Obiectiv principal:
+Site-ul trebuie să genereze cât mai multe cereri de ofertă și apeluri telefonice din reclame Facebook. Designul trebuie să inspire încredere, profesionalism și siguranță.
+
+Date firmă:
+Nume: Iristal
+Locație: Iași, România
+Telefon principal: 0747140591
+Experiență: peste 15 ani în domeniul instalațiilor
+Parteneriat important: contract de colaborare cu Altex
+
+Servicii principale:
+- Montaj și instalare aparate de aer condiționat
+- Instalare centrale termice
+- Instalații complete pentru locuințe și spații comerciale
+- Lucrări profesionale de instalații HVAC și sanitare
+
+STRUCTURĂ WEBSITE:
+
+1. HERO SECTION (prima zonă vizibilă)
+
+Creează o zonă puternică de vânzare cu:
+
+Titlu:
+"Instalații profesionale în Iași – Confort și siguranță pentru casa ta"
+
+Subtitlu:
+"Cu peste 15 ani experiență, Iristal oferă servicii complete de instalații, de la aer condiționat până la centrale termice."
+
+Include butoane CTA mari:
+- "Solicită ofertă gratuită"
+- "Sună acum: 0747140591"
+
+Adaugă badge-uri vizibile în zona principală:
+
+✓ 15+ Ani experiență
+✓ Contract Altex
+✓ Instalatori profesioniști
+✓ Intervenții în Iași
+✓ Lucrări garantate
+
+Imagine principală:
+Un tehnician instalator profesionist, echipat, care montează un aparat de aer condiționat sau lucrează la o instalație termică.
+
+2. SECȚIUNE ÎNCREDERE
+
+Creează o zonă cu iconițe și avantaje:
+
+"De ce să alegi Iristal?"
+
+✓ Experiență de peste 15 ani
+✓ Partener de încredere pentru Altex
+✓ Soluții complete pentru locuințe și firme
+✓ Execuție profesională
+✓ Consultanță înainte de lucrare
+✓ Respectarea termenelor
+
+3. SERVICII
+
+Creează carduri premium:
+
+Aer condiționat:
+"Montaj profesional aparate de aer condiționat, instalare și configurare pentru confort maxim."
+
+Centrale termice:
+"Instalare centrale termice realizată corect și eficient, adaptată nevoilor fiecărei locuințe."
+
+Instalații complete:
+"Lucrări complete de instalații pentru apartamente, case și spații comerciale."
+
+4. SECȚIUNE DE AUTORITATE
+
+Titlu:
+"Experiență reală. Lucrări făcute corect."
+
+Text:
+"Iristal oferă servicii de instalații bazate pe experiență, seriozitate și atenție la detalii. Fiecare proiect este tratat profesionist, de la prima discuție până la finalizarea lucrării."
+
+Include badge-uri mari:
+
+15+
+Ani experiență
+
+100%
+Profesionalism
+
+Iași
+Zona de lucru
+
+Altex
+Partener contractual
+
+5. FORMULAR DE CONTACT PENTRU FACEBOOK ADS
+
+Creează un formular vizibil:
+
+Titlu:
+"Primește o ofertă rapidă"
+
+Câmpuri:
+- Nume
+- Telefon
+- Alege serviciul:
+  - Aer condiționat
+  - Centrală termică
+  - Instalații complete
+- Mesaj
+
+Buton:
+"Solicită oferta"
+
+După trimitere:
+"Mulțumim! Te vom contacta în cel mai scurt timp."
+
+6. RECENZII
+
+Secțiune:
+"Clienți mulțumiți din Iași"
+
+Adaugă testimoniale demo care pot fi înlocuite ulterior.
+
+7. CONTACT
+
+Include:
+
+Iristal
+Iași, România
+
+Telefon:
+0747140591
+
+Buton mare:
+"Sună acum"
+
+Include hartă Google Maps placeholder pentru Iași.
+
+DESIGN:
+- Premium, modern, curat
+- Culori: albastru, alb, gri
+- Aspect de firmă serioasă
+- Mobile-first pentru trafic din Facebook
+- Viteză mare de încărcare
+- SEO optimizat pentru:
+
+"instalator Iași"
+"montaj aer condiționat Iași"
+"instalare centrale Iași"
+"instalații complete Iași"
+
+Elemente obligatorii pentru conversie:
+- buton flotant de apel pe mobil
+- CTA-uri repetate pe pagină
+- badge-uri de încredere
+- formular vizibil
+- accent pe experiență și seriozitate
+
+Scop final:
+Un landing page care transformă vizitatorii veniți din Facebook Ads în apeluri și cereri de ofertă.
