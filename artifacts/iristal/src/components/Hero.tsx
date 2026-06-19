@@ -17,14 +17,14 @@ export function Hero() {
         <div className="absolute top-20 right-20 w-72 h-72 bg-blue-400/5 rounded-full blur-3xl" />
       </div>
 
-      {/* Hero image — right half */}
-      <div className="absolute top-0 right-0 w-full md:w-1/2 h-full z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f45] via-[#0b1f45]/80 to-[#0b1f45]/30 z-10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b1f45] via-transparent to-transparent z-10" />
+      {/* Hero image — full width background */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b1f45]/95 via-[#0b1f45]/70 to-[#0b1f45]/40 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b1f45]/80 via-transparent to-transparent z-10" />
         <img
           src={heroImg}
           alt="Instalatii profesionale Iasi"
-          className="w-full h-full object-cover object-center opacity-70"
+          className="w-full h-full object-cover object-center opacity-80"
         />
       </div>
 
