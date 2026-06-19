@@ -1,6 +1,6 @@
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import heroImg from "@assets/generated_images/professional_hvac_installation_scene_31a8.png";
+import heroImg from "../assets/images/hero.png";
 
 export function Hero() {
   const scrollToContact = () => {
