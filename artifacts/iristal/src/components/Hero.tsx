@@ -38,7 +38,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 bg-amber-400/15 border border-amber-400/40 rounded-full px-4 py-2 mb-8"
           >
             <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
-            <span className="text-amber-400 font-bold text-sm tracking-widest uppercase">Contract de colaborare Altex</span>
+            <span className="text-amber-400 font-bold text-sm tracking-widest uppercase">Partener Altex</span>
           </motion.div>
 
           <motion.h1
